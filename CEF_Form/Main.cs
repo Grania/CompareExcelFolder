@@ -22,9 +22,9 @@ namespace CEF_Form
 			lblNewLoaded.Visible = false;
 			lblOldLoaded.Visible = false;
 
-			oldFolder = new CEF_Folder("C:\\Users\\DungNM\\Desktop");
-			newFolder = new CEF_Folder("C:\\Users\\DungNM\\Desktop");
-			DisplayCompareResult();
+			//oldFolder = new CEF_Folder("C:\\Users\\DungNM\\Desktop");
+			//newFolder = new CEF_Folder("C:\\Users\\DungNM\\Desktop");
+			//DisplayCompareResult();
 		}
 
 		private void btnSelectNewFld_Click(object sender, EventArgs e)

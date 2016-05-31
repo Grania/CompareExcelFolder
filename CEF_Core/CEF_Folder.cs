@@ -19,13 +19,13 @@ namespace CEF_Core
 			try {
 				string[] strFiles = Directory.GetFiles (path);
 				foreach (string strFile in strFiles) {
-					string fileName = GetFileName (strFile);
+					string fileName = CEF_Util.GetFileName (strFile);
 
 					if (fileDic.ContainsKey (fileName)) {
 						throw new Exception ("Duplicate file name");
 					}
 
-					string fileExt = GetFileExt (fileName);
+					string fileExt = CEF_Util.GetFileExt (fileName);
 					long size = (new FileInfo (strFile)).Length;
 
 					fileDic.Add (fileName, new CEF_File (fileName, strFile, fileExt, size));
@@ -82,28 +82,6 @@ namespace CEF_Core
 			fileNames.Sort ();
 
 			return fileNames;
-		}
-
-		private string GetFileName (string path)
-		{
-			for (int i = path.Length - 1; i >= 0; i--) {
-				if (path [i] == '\\') {
-					return path.Substring (i + 1);
-				}
-			}
-
-			return String.Empty;
-		}
-
-		private string GetFileExt (string fileName)
-		{
-			for (int i = fileName.Length - 1; i >= 0; i--) {
-				if (fileName [i] == '.') {
-					return fileName.Substring (i + 1);
-				}
-			}
-
-			return String.Empty;
 		}
 	}
 }

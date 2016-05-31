@@ -7,7 +7,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>CEF_Runable</RootNamespace>
     <AssemblyName>CEF_Runable</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -35,4 +35,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\CEF_Core\CEF_Core.csproj">
+      <Project>{FF766AAC-9C5B-4B12-AE82-A8A6BB692B44}</Project>
+      <Name>CEF_Core</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>

@@ -1,4 +1,4 @@
-﻿<Properties StartupItem="CEF_Form/CEF_Form.csproj">
+﻿<Properties StartupItem="CEF_Runable/CEF_Runable.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="CEF_Runable/Program.cs">
     <Files>

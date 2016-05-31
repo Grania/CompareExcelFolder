@@ -51,6 +51,7 @@
     <Compile Include="CEF_Folder.cs" />
     <Compile Include="CEF_Result.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="CEF_Util.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
