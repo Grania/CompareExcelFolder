@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="CEF_Form/CEF_Form.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CEF_Runable/Program.cs">
+    <Files>
+      <File FileName="CEF_Core/CEF_Result.cs" Line="7" Column="39" />
+      <File FileName="CEF_Runable/Program.cs" Line="13" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/home/dungnm/Desktop/CompareExcelFolder/CompareExcelFolder/Program.cs" line="15" column="21" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
