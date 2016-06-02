@@ -9,7 +9,7 @@ namespace CEF_Core
 
 	public class CEF_SheetChange
 	{
-		public string name { get; }
+		public string name { get; set; }
 		List<KeyValuePair<int, int>> changePosition;
 
 		public CEF_SheetChange(string name)

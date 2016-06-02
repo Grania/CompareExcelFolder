@@ -31,8 +31,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="itextsharp">
+      <HintPath>C:\Users\ANDONGNHI\Desktop\itextsharp.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -49,6 +53,9 @@
     <Compile Include="CEF_ExcelCompareResult.cs" />
     <Compile Include="CEF_File.cs" />
     <Compile Include="CEF_Folder.cs" />
+    <Compile Include="CEF_Member.cs" />
+    <Compile Include="CEF_PDF.cs" />
+    <Compile Include="CEF_PFD_Task_Builder.cs" />
     <Compile Include="CEF_Result.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="CEF_Util.cs" />

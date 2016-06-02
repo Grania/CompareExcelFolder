@@ -4,10 +4,10 @@ namespace CEF_Core
 {
 	public abstract class CEF_Result<T>
 	{
-		private List<T> _stillShape { get; }
-		private List<T> _modified { get; }
-		private List<T> _deleted { get; }
-		private List<T> _added { get; }
+		private List<T> _stillShape { get; set; }
+		private List<T> _modified { get; set; }
+		private List<T> _deleted { get; set; }
+		private List<T> _added { get; set; }
 
 		public CEF_Result(){
 			_stillShape = new List<T>();

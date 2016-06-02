@@ -7,8 +7,8 @@ namespace CEF_Core
 {
 	public class CEF_Folder
 	{
-		public string name{ get; }
-		public string path { get; }
+		public string name { get; set; }
+		public string path { get; set; }
 
 		Dictionary<string, CEF_File> fileDic;
 
