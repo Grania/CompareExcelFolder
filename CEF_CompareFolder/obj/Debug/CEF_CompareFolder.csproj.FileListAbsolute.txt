@@ -16,3 +16,19 @@ D:\CompareExcelFolder\CEF_CompareFolder\bin\Debug\Microsoft.Vbe.Interop.dll
 D:\CompareExcelFolder\CEF_CompareFolder\bin\Debug\CEF_Core.pdb
 D:\CompareExcelFolder\CEF_CompareFolder\bin\Debug\office.xml
 D:\CompareExcelFolder\CEF_CompareFolder\obj\Debug\CEF_CompareFolder.frmPDFTaskAssign.resources
+D:\Microsoft Visual Studio 14.0\dungnm\CompareExcelFolder\CEF_CompareFolder\bin\Debug\CEF_CompareFolder.exe.config
+D:\Microsoft Visual Studio 14.0\dungnm\CompareExcelFolder\CEF_CompareFolder\obj\Debug\CEF_CompareFolder.exe
+D:\Microsoft Visual Studio 14.0\dungnm\CompareExcelFolder\CEF_CompareFolder\obj\Debug\CEF_CompareFolder.pdb
+D:\Microsoft Visual Studio 14.0\dungnm\CompareExcelFolder\CEF_CompareFolder\bin\Debug\CEF_CompareFolder.exe
+D:\Microsoft Visual Studio 14.0\dungnm\CompareExcelFolder\CEF_CompareFolder\bin\Debug\CEF_CompareFolder.pdb
+D:\Microsoft Visual Studio 14.0\dungnm\CompareExcelFolder\CEF_CompareFolder\bin\Debug\CEF_Core.dll
+D:\Microsoft Visual Studio 14.0\dungnm\CompareExcelFolder\CEF_CompareFolder\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\Microsoft Visual Studio 14.0\dungnm\CompareExcelFolder\CEF_CompareFolder\bin\Debug\itextsharp.dll
+D:\Microsoft Visual Studio 14.0\dungnm\CompareExcelFolder\CEF_CompareFolder\bin\Debug\stdole.dll
+D:\Microsoft Visual Studio 14.0\dungnm\CompareExcelFolder\CEF_CompareFolder\bin\Debug\CEF_Core.pdb
+D:\Microsoft Visual Studio 14.0\dungnm\CompareExcelFolder\CEF_CompareFolder\obj\Debug\CEF_CompareFolder.csprojResolveAssemblyReference.cache
+D:\Microsoft Visual Studio 14.0\dungnm\CompareExcelFolder\CEF_CompareFolder\obj\Debug\CEF_CompareFolder.frmExportChange.resources
+D:\Microsoft Visual Studio 14.0\dungnm\CompareExcelFolder\CEF_CompareFolder\obj\Debug\CEF_CompareFolder.frmPDFTaskAssign.resources
+D:\Microsoft Visual Studio 14.0\dungnm\CompareExcelFolder\CEF_CompareFolder\obj\Debug\CEF_CompareFolder.Main.resources
+D:\Microsoft Visual Studio 14.0\dungnm\CompareExcelFolder\CEF_CompareFolder\obj\Debug\CEF_CompareFolder.Properties.Resources.resources
+D:\Microsoft Visual Studio 14.0\dungnm\CompareExcelFolder\CEF_CompareFolder\obj\Debug\CEF_CompareFolder.csproj.GenerateResource.Cache

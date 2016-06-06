@@ -44,23 +44,21 @@ namespace CEF_Core
 			for (int i = fileName.Length - 1; i >= 0; i--)
 			{
 				if (fileName[i] == '.')
-				{
 					return fileName.Insert(i, addingStr);
-				}
 			}
 
 			return String.Empty;
 		}
 
-		public static void DuplicateFile(CEF_File file, string fileName)
+		public static void DuplicateFile(CEF_File file, string filePath)
 		{
 			try
 			{
-				System.IO.File.Copy(file.fullPath, file.path + '\\' + fileName);
+				System.IO.File.Copy(file.fullPath, filePath);
 			}
-			catch (Exception)
+			catch (Exception ex)
 			{
-				throw new Exception("can't duplicate file.");
+				throw ex;
 			}
 		}
 	}
