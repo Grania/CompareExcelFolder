@@ -10,6 +10,8 @@ namespace CEF_Core
 	{
 		private const string _masterMemberName = "____master_____aowiehf";
 
+		public int numberOfPage { get { return _pdf.numberOfPage; } }
+
 		public string fileName { get { return _pdf.name; } }
 
 		private CEF_PDF _pdf;
@@ -38,6 +40,34 @@ namespace CEF_Core
 				throw new Exception("This member already added.");
 
 			_member.Add(member.name, member);
+		}
+
+		public CEF_Member GetMember(string memberName)
+		{
+			if (_member.ContainsKey(memberName))
+				return _member[memberName];
+			else
+				return null;
+		}
+
+		public bool ContainMember(string memberName)
+		{
+			return _member.ContainsKey(memberName);
+		}
+
+		public int MemberCount()
+		{
+			return _member.Count;
+		}
+
+		public bool hasColor(System.Drawing.Color color)
+		{
+			foreach(var member in _member)
+			{
+				if (member.Value.color == color)
+					return true;
+			}
+			return false;
 		}
 
 		public void addTask(int from, int to, string memberName)
